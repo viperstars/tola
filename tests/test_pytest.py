@@ -25,7 +25,7 @@ def test_setup_math(setup_math):
     # Py.test不需要使用self.assertXXX这样的方法， 直接使用Python内置的断言语句即可assert
     import time
     time.sleep(4)
-    assert setup_math.pow(2, 3) == 11.0
+    assert setup_math.pow(2, 3) == 8.0
 
 
 class TestClass(object):
