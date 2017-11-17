@@ -33,7 +33,7 @@ class TestClass(object):
         assert 'h' in 'hello'
 
     def test_two(self, setup_math):
-        assert setup_math.ceil(10) == 10.0
+        assert setup_math.ceil(15) == 15.0
 
 
 def raise_exit():
